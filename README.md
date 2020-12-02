@@ -7,7 +7,7 @@ original by Dempfi (<https://github.com/dempfi/ayu>).
 
 You can use the [Stylus](https://add0n.com/stylus.html) browser extension to use this theme.
 
-Navigate to TODO after installing one of the extensions and you should see a prompt to install the theme. Further updates should be available from the list of installed styles.
+Navigate to <https://raw.githubusercontent.com/Tamschi/mdBook-Ayu-for-GitHub/main/mdBook-GitHub-Ayu.user.css> after installing one of the extensions and you should see a prompt to install the theme. Further updates should be available from the list of installed styles.
 
 ## License
 
