@@ -66,6 +66,8 @@
 		--ayu-hljs-addition: #91b362;
 		--ayu-hljs-deletion: #d96c75;
 		/**/
+		--color-alert-info-bg: var(--ayu-quote-border);
+		--color-alert-info-text: var(--ayu-fg);
 		--color-bg-primary: var(--ayu-quote-bg);
 		--color-bg-secondary: var(--ayu-sidebar-bg);
 		--color-bg-tertiary: var(--ayu-quote-border);
@@ -82,6 +84,7 @@
 		--color-btn-bg: var(--ayu-searchbar-bg);
 		--color-btn-hover-bg: var(--ayu-searchbar-border-color);
 		--color-btn-inset-shadow: var(--ayu-searchbar-shadow-color);
+		--color-btn-outline-text: var(--ayu-searchbar-fg);
 		--color-btn-selected-bg: var(--ayu-searchbar-border-color);
 		--color-btn-shadow: var(--ayu-searchbar-shadow-color);
 		--color-btn-text: var(--ayu-searchbar-fg);
@@ -102,6 +105,8 @@
 		--color-input-bg: var(--ayu-theme-popup-bg);
 		--color-input-contrast-bg: var(--ayu-theme-hover);
 		--color-markdown-code-bg: var(--ayu-hljs-background);
+		--color-notifications-row-read-bg: var(--ayu-table-alternate-bg);
+		--color-notifications-row-bg: var(--ayu-bg);
 		--color-shadow-large: black;
 		--color-social-count-bg: var(--ayu-quote-bg);
 		--color-state-focus-border: var(--ayu-sidebar-active);
