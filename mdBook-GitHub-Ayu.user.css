@@ -72,6 +72,7 @@
 		--color-bg-secondary: var(--ayu-sidebar-bg);
 		--color-bg-tertiary: var(--ayu-quote-border);
 		--color-bg-canvas: var(--ayu-bg);
+		--color-bg-info: var(--ayu-quote-bg);
 		--color-bg-overlay: var(--ayu-theme-popup-bg);
 		--color-border-primary: var(--ayu-quote-border);
 		--color-border-secondary: var(--ayu-sidebar-spacer);
@@ -105,6 +106,7 @@
 		--color-input-bg: var(--ayu-theme-popup-bg);
 		--color-input-contrast-bg: var(--ayu-theme-hover);
 		--color-markdown-code-bg: var(--ayu-hljs-background);
+		--color-notifications-button-hover-bg: var(--ayu-table-alternate-bg);
 		--color-notifications-row-read-bg: var(--ayu-table-alternate-bg);
 		--color-notifications-row-bg: var(--ayu-bg);
 		--color-shadow-large: black;

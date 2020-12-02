@@ -2,6 +2,12 @@
 
 <!-- markdownlint-disable no-trailing-punctuation -->
 
+## next
+
+TODO: Date
+
+* Some more fixes to the notifications lists
+
 ## 0.0.2
 
 2020-12-03
