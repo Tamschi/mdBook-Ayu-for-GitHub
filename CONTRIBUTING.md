@@ -13,22 +13,6 @@ For anything else, please use the ["Custom issue"] template.
 
 ## Pull Requests
 
-### CI
-
-This repository uses fairly extensive CI to make sure everything is in order.  
-Travis CI will automatically build and test your pull requests.
-
-**I recommend working on branches with a `-` or `/` in their name.**  
-The CI is configured slightly differently for them to make WIP code a bit easier.
-
-Additionally, when you run `cargo test` for the first time, [cargo-husky] sets up a Git pre-push hook to run tests.  
-This includes a branch name check, which is ignored on any branches that have a `-` or '/' in their name.  
-You can still push failing builds using `git push --no-verify`.
-
-Warnings are only denied on `develop`, but the CI should still detect them for pull requests towards that branch.
-
-[cargo-husky]: https://lib.rs/crates/cargo-husky
-
 ### Code Style
 
 Please keep your code human-readable.
@@ -47,14 +31,10 @@ While there are no formal style requirements, here are some suggestions that mig
 
   If you do something custom that's tricky, a link to an explanation of the technique would be nice. I'll just ask if this becomes an issue, though.
 
-* If you use macros, put them nearby.
-
-    I normally place one-off macros directly above the item I need them for.
-
 ### Meta data
 
 Please add yourself to each copyright holders list of [LICENSE-APACHE](LICENSE-APACHE) and [LICENSE-MIT](LICENSE-MIT) when contributing, or alternatively include a note in your pull request that you intentionally didn't do so.
 
 Nicknames and entries without email addresses are fine, too.
 
-For substantial contributions (basically anything more than typo or grammar fixes), feel free to add yourself to the `authors` list in `Cargo.toml`. This explicitly includes documentation changes, testing and bug fixes that just happen to be not much code.
+For substantial contributions (basically anything more than typo or grammar fixes), feel free to add yourself to the authors list in the user style. This explicitly includes documentation changes, testing and bug fixes that just happen to be not much code.
