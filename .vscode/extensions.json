@@ -1,5 +1,6 @@
 {
 	"recommendations": [
+		"aeschli.vscode-css-formatter",
 		"editorconfig.editorconfig",
 		"sidp.strict-whitespace",
 		"gruntfuggly.todo-tree"

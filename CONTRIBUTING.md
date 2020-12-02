@@ -30,11 +30,3 @@ While there are no formal style requirements, here are some suggestions that mig
   It's usually fine to use a library to avoid boilerplate, if there's enough documentation so I could replicate it from scratch.
 
   If you do something custom that's tricky, a link to an explanation of the technique would be nice. I'll just ask if this becomes an issue, though.
-
-### Meta data
-
-Please add yourself to each copyright holders list of [LICENSE-APACHE](LICENSE-APACHE) and [LICENSE-MIT](LICENSE-MIT) when contributing, or alternatively include a note in your pull request that you intentionally didn't do so.
-
-Nicknames and entries without email addresses are fine, too.
-
-For substantial contributions (basically anything more than typo or grammar fixes), feel free to add yourself to the authors list in the user style. This explicitly includes documentation changes, testing and bug fixes that just happen to be not much code.

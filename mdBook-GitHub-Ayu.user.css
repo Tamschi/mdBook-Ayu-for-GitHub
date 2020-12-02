@@ -1,0 +1,178 @@
+/* ==UserStyle==
+@name         mdBook Ayu for GitHub
+@description  Applies a colour these based on mdBook's Ayu variant to the GitHub website.
+@namespace    github.com/openstyles/stylus
+@author       Tamme Schichler <tamme@schichler.dev> (schichler.dev)
+@version      0.0.1
+@homepageURL  https://github.com/Tamschi/mdBook-Ayu-for-GitHub
+@supportURL   https://github.com/Tamschi/mdBook-Ayu-for-GitHub/issues
+@updateURL    https://raw.githubusercontent.com/Tamschi/mdBook-Ayu-for-GitHub/main/mdBook-GitHub-Ayu.user.css
+@license      MPL-2.0
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+	/*
+		Based on:
+			https://github.com/rust-lang/mdBook/blob/59f2a9bf4ed62f7ad37ff8a14887886ca16ef576/src/theme/css/variables.css
+			https://github.com/rust-lang/mdBook/blob/59f2a9bf4ed62f7ad37ff8a14887886ca16ef576/src/theme/ayu-highlight.css
+
+		which are:
+			Based off of the Ayu theme
+			Original by Dempfi (https://github.com/dempfi/ayu)
+	*/
+	:root {
+		--ayu-bg: hsl(210, 25%, 8%);
+		--ayu-fg: #c5c5c5;
+		--ayu-sidebar-bg: #14191f;
+		--ayu-sidebar-fg: #c8c9db;
+		--ayu-sidebar-non-existant: #5c6773;
+		--ayu-sidebar-active: #ffb454;
+		--ayu-sidebar-spacer: #2d334f;
+		--ayu-scrollbar: var(--ayu-sidebar-fg);
+		--ayu-icons: #737480;
+		--ayu-icons-hover: #b7b9cc;
+		--ayu-links: #0096cf;
+		--ayu-inline-code-color: #ffb454;
+		--ayu-theme-popup-bg: #14191f;
+		--ayu-theme-popup-border: #5c6773;
+		--ayu-theme-hover: #191f26;
+		--ayu-quote-bg: hsl(226, 15%, 17%);
+		--ayu-quote-border: hsl(266, 15%, 22%);
+		--ayu-table-border-color: hsl(210, 25%, 13%);
+		--ayu-table-header-bg: hsl(210, 25%, 28%);
+		--ayu-table-alternate-bg: hsl(210, 25%, 11%);
+		--ayu-searchbar-border-color: #848484;
+		--ayu-searchbar-bg: #424242;
+		--ayu-searchbar-fg: #fff;
+		--ayu-searchbar-shadow-color: #d4c89f;
+		--ayu-searchresults-header-fg: #666;
+		--ayu-searchresults-border-color: #888;
+		--ayu-searchresults-li-bg: #252932;
+		--ayu-search-mark-bg: #e3b171;
+		/**/
+		--ayu-hljs-background: #191f26;
+		--ayu-hljs-color: #e6e1cf;
+		--ayu-hljs-comment: #5c6773;
+		--ayu-hljs-quote: #5c6773;
+		--ayu-hljs-number: #ffee99;
+		--ayu-hljs-meta: #ffee99;
+		--ayu-hljs-builtin-name: #ffee99;
+		--ayu-hljs-literal: #ffee99;
+		--ayu-hljs-type: #ffee99;
+		--ayu-hljs-params: #ffee99;
+		--ayu-hljs-string: #b8cc52;
+		--ayu-hljs-bullet: #b8cc52;
+		--ayu-hljs-name: #36a3d9;
+		--ayu-hljs-addition: #91b362;
+		--ayu-hljs-deletion: #d96c75;
+		/**/
+		--color-bg-primary: var(--ayu-quote-bg);
+		--color-bg-secondary: var(--ayu-sidebar-bg);
+		--color-bg-tertiary: var(--ayu-quote-border);
+		--color-bg-canvas: var(--ayu-bg);
+		--color-bg-overlay: var(--ayu-theme-popup-bg);
+		--color-border-primary: var(--ayu-quote-border);
+		--color-border-secondary: var(--ayu-sidebar-spacer);
+		--color-box-header-blue-bg: var(--ayu-quote-border);
+		--color-box-header-blue-border: var(--ayu-quote-border);
+		--color-box-bg-info: var(--ayu-quote-border);
+		--color-box-border-info: var(--ayu-quote-border);
+		--color-branch-name-bg: var(--ayu-searchbar-bg);
+		--color-branch-name-text: var(--ayu-searchbar-fg);
+		--color-btn-bg: var(--ayu-searchbar-bg);
+		--color-btn-hover-bg: var(--ayu-searchbar-border-color);
+		--color-btn-inset-shadow: var(--ayu-searchbar-shadow-color);
+		--color-btn-selected-bg: var(--ayu-searchbar-border-color);
+		--color-btn-shadow: var(--ayu-searchbar-shadow-color);
+		--color-btn-text: var(--ayu-searchbar-fg);
+		--color-btn-primary-bg: var(--ayu-hljs-addition);
+		--color-btn-primary-text: var(--ayu-searchbar-fg);
+		--color-counter-bg: var(--ayu-searchbar-bg);
+		--color-diff-blob-num-hover-text: var(--ayu-sidebar-active);
+		--color-diff-blob-num-text: var(--ayu-sidebar-non-existant);
+		/*
+		--color-diffstat-addition-bg: var(--ayu-hljs-addition);
+		--color-diffstat-addition-border: var(--ayu-hljs-addition);
+		--color-diffstat-deletion-bg: var(--ayu-hljs-deletion);
+		--color-diffstat-deletion-border: var(--ayu-hljs-deletion);
+		*/
+		--color-diffstat-neutral-bg: var(--ayu-searchbar-bg);
+		--color-diffstat-neutral-border: var(--ayu-searchbar-bg);
+		--color-input-border: var(--ayu-theme-popup-border);
+		--color-input-bg: var(--ayu-theme-popup-bg);
+		--color-input-contrast-bg: var(--ayu-theme-hover);
+		--color-markdown-code-bg: var(--ayu-hljs-background);
+		--color-shadow-large: black;
+		--color-social-count-bg: var(--ayu-quote-bg);
+		--color-state-focus-border: var(--ayu-sidebar-active);
+		--color-state-focus-shadow: var(--ayu-sidebar-active);
+		--color-text-primary: var(--ayu-fg);
+		--color-text-secondary: var(--ayu-icons);
+		--color-text-tertiary: var(--ayu-icons);
+		/* --color-text-danger: var(--ayu-hljs-deletion); */
+		--color-text-link: var(--ayu-links);
+		/* --color-text-success: var(--ayu-hljs-addition); */
+		--color-tooltip-bg: var(--ayu-searchbar-bg);
+		--color-tooltip-text: var(--ayu-searchbar-fg);
+		--color-underlinenav-text: var(--ayu-sidebar-fg);
+		--color-underlinenav-text-active: var(--ayu-sidebar-active);
+		--color-underlinenav-text-hover: var(--ayu-sidebar-active);
+		--color-underlinenav-counter-text: var(--ayu-searchbar-fg);
+		--color-upload-enabled-border: var(--ayu-theme-popup-border);
+	}
+	/* file view*/
+	table.highlight, /* e.g. timeline code blocks */
+	.markdown-body .highlight pre, .markdown-body pre {
+		background-color: var(--ayu-hljs-background);
+		--color-text-primary: var(--ayu-hljs-color);
+	}
+	main {
+		background-color: var(--ayu-bg);
+	}
+	/* Issue Timeline */
+	.timeline-comment {
+		--color-text-primary: var(--ayu-fg);
+	}
+	.timeline-comment--caret::before, .timeline-comment--caret.current-user::before {
+		border-right-color: var(--ayu-quote-border);
+	}
+	.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+		color: var(--ayu-searchbar-fg);
+	}
+	.markdown-body code, .markdown-body tt {
+		color: var(--ayu-inline-code-color);
+	}
+	.discussion-timeline-actions .bg-gray-light {
+		/* Gets rid of small ugly corners. */
+		background-color: transparent !important;
+	}
+	/* various links that are on a quote border background or otherwise look better in orange */
+	.toolbar-item .menu-target:hover, .toolbar-item:hover, .discussion-sidebar-toggle:hover {
+		color: var(--ayu-sidebar-active);
+	}
+	.Link--secondary:hover, .link-gray:hover, .Link--primary:hover, .link-gray-dark:hover, .Link--muted:hover, .muted-link:hover {
+		color: var(--ayu-sidebar-active) !important;
+	}
+	.commit-ref a {
+		color: var(--ayu-searchbar-fg);
+	}
+	.commit-ref a:hover {
+		color: var(--ayu-sidebar-active);
+	}
+	/* Code (massive guesswork) */
+	.pl-c {
+		color: var(--ayu-hljs-comment);
+	}
+	.pl-c1, .pl-s .pl-v {
+		color: var(--ayu-hljs-name);
+	}
+	.pl-pds, .pl-s, .pl-s .pl-pse .pl-s1, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sra, .pl-sr .pl-sre {
+		color: var(--ayu-hljs-literal);
+	}
+	.pl-e, .pl-en {
+		color: var(--ayu-hljs-builtin-name);
+	}
+	.pl-s .pl-s1, .pl-smi {
+		color: var(--ayu-hljs-meta);
+	}
+}

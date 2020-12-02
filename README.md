@@ -1,6 +1,7 @@
 # mdBook-style Ayu for GitHub
 
-TODO_README_DESCRIPTION
+Based on mdBook's [variables.css](https://github.com/rust-lang/mdBook/blob/59f2a9bf4ed62f7ad37ff8a14887886ca16ef576/src/theme/css/variables.css) and [ayu-highlight.css](https://github.com/rust-lang/mdBook/blob/59f2a9bf4ed62f7ad37ff8a14887886ca16ef576/src/theme/ayu-highlight.css), which are based off of the Ayu theme;  
+original by Dempfi (<https://github.com/dempfi/ayu>).
 
 ## Installation
 
@@ -10,20 +11,11 @@ Navigate to TODO after installing one of the extensions and you should see a pro
 
 ## License
 
-Licensed under either of
-
-* Apache License, Version 2.0
-   ([LICENSE-APACHE](LICENSE-APACHE) or <http://www.apache.org/licenses/LICENSE-2.0>)
-* MIT license
-   ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
-
-at your option.
+Licensed under [Mozilla Public License, version 2.0](https://www.mozilla.org/en-US/MPL/2.0/).
 
 ## Contribution
 
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
-dual licensed as above, without any additional terms or conditions.
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in this work by you shall be licensed as above, without any additional terms or conditions.
 
 ## [Code of Conduct](CODE_OF_CONDUCT.md)
 
