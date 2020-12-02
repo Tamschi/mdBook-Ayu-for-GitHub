@@ -7,6 +7,7 @@
 TODO: Date
 
 * Made pinned repositories popup text readable
+* More pleasant filter list selections (i.e. the least of years you can filter activity by on profile pages)
 
 ## 0.0.3
 

@@ -113,6 +113,9 @@
 		--color-social-count-bg: var(--ayu-quote-bg);
 		--color-state-focus-border: var(--ayu-sidebar-active);
 		--color-state-focus-shadow: var(--ayu-sidebar-active);
+		--color-state-selected-primary-text: var(--ayu-sidebar-active);
+		/* Like hover: */
+		--color-state-selected-primary-bg: var(--color-bg-tertiary);
 		--color-text-primary: var(--ayu-fg);
 		--color-text-secondary: var(--ayu-icons);
 		--color-text-tertiary: var(--ayu-icons);
