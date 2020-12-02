@@ -153,6 +153,13 @@
 		/* Gets rid of small ugly corners. */
 		background-color: transparent !important;
 	}
+	/* Pinned Repositories */
+	.pinned-item-checkbox:checked+.pinned-item-name {
+		color: var(--ayu-sidebar-fg);
+	}
+	.pinned-item-name {
+		color: var(--ayu-sidebar-non-existant);
+	}
 	/* various links that are on a quote border background or otherwise look better in orange */
 	.toolbar-item .menu-target:hover, .toolbar-item:hover, .discussion-sidebar-toggle:hover {
 		color: var(--ayu-sidebar-active);

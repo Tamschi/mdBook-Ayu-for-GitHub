@@ -2,6 +2,12 @@
 
 <!-- markdownlint-disable no-trailing-punctuation -->
 
+## next
+
+TODO: Date
+
+* Made pinned repositories popup text readable
+
 ## 0.0.3
 
 2020-12-03
