@@ -2,9 +2,9 @@
 
 <!-- markdownlint-disable no-trailing-punctuation -->
 
-## next
+## 0.0.3
 
-TODO: Date
+2020-12-03
 
 * Some more fixes to the notifications lists
 
