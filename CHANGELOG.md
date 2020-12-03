@@ -2,9 +2,9 @@
 
 <!-- markdownlint-disable no-trailing-punctuation -->
 
-## next
+## 0.0.4
 
-TODO: Date
+2020-12-03
 
 * Made pinned repositories popup text readable
 * More pleasant filter list selections (i.e. the least of years you can filter activity by on profile pages)
