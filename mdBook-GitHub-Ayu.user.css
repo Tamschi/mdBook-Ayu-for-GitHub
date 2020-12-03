@@ -3,7 +3,7 @@
 @description  Applies a colour these based on mdBook's Ayu variant to the GitHub website.
 @namespace    github.com/openstyles/stylus
 @author       Tamme Schichler <tamme@schichler.dev> (schichler.dev)
-@version      0.0.3
+@version      0.0.4
 @homepageURL  https://github.com/Tamschi/mdBook-Ayu-for-GitHub
 @supportURL   https://github.com/Tamschi/mdBook-Ayu-for-GitHub/issues
 @updateURL    https://raw.githubusercontent.com/Tamschi/mdBook-Ayu-for-GitHub/main/mdBook-GitHub-Ayu.user.css
@@ -68,6 +68,9 @@
 		/**/
 		--color-alert-info-bg: var(--ayu-quote-border);
 		--color-alert-info-text: var(--ayu-fg);
+		--color-alert-warn-bg: var(--ayu-bg);
+		--color-alert-warn-border: var(--ayu-sidebar-active);
+		--color-alert-warn-icon: var(--ayu-sidebar-active);
 		--color-bg-primary: var(--ayu-quote-bg);
 		--color-bg-secondary: var(--ayu-sidebar-bg);
 		--color-bg-tertiary: var(--ayu-quote-border);
@@ -113,6 +116,9 @@
 		--color-social-count-bg: var(--ayu-quote-bg);
 		--color-state-focus-border: var(--ayu-sidebar-active);
 		--color-state-focus-shadow: var(--ayu-sidebar-active);
+		--color-state-selected-primary-text: var(--ayu-sidebar-active);
+		/* Like hover: */
+		--color-state-selected-primary-bg: var(--color-bg-tertiary);
 		--color-text-primary: var(--ayu-fg);
 		--color-text-secondary: var(--ayu-icons);
 		--color-text-tertiary: var(--ayu-icons);
@@ -152,6 +158,13 @@
 	.discussion-timeline-actions .bg-gray-light {
 		/* Gets rid of small ugly corners. */
 		background-color: transparent !important;
+	}
+	/* Pinned Repositories */
+	.pinned-item-checkbox:checked+.pinned-item-name {
+		color: var(--ayu-sidebar-fg);
+	}
+	.pinned-item-name {
+		color: var(--ayu-sidebar-non-existant);
 	}
 	/* various links that are on a quote border background or otherwise look better in orange */
 	.toolbar-item .menu-target:hover, .toolbar-item:hover, .discussion-sidebar-toggle:hover {
