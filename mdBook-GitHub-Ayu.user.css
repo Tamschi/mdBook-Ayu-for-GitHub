@@ -68,6 +68,9 @@
 		/**/
 		--color-alert-info-bg: var(--ayu-quote-border);
 		--color-alert-info-text: var(--ayu-fg);
+		--color-alert-warn-bg: var(--ayu-bg);
+		--color-alert-warn-border: var(--ayu-sidebar-active);
+		--color-alert-warn-icon: var(--ayu-sidebar-active);
 		--color-bg-primary: var(--ayu-quote-bg);
 		--color-bg-secondary: var(--ayu-sidebar-bg);
 		--color-bg-tertiary: var(--ayu-quote-border);
