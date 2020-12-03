@@ -3,7 +3,7 @@
 @description  Applies a colour these based on mdBook's Ayu variant to the GitHub website.
 @namespace    github.com/openstyles/stylus
 @author       Tamme Schichler <tamme@schichler.dev> (schichler.dev)
-@version      0.0.2
+@version      0.0.3
 @homepageURL  https://github.com/Tamschi/mdBook-Ayu-for-GitHub
 @supportURL   https://github.com/Tamschi/mdBook-Ayu-for-GitHub/issues
 @updateURL    https://raw.githubusercontent.com/Tamschi/mdBook-Ayu-for-GitHub/main/mdBook-GitHub-Ayu.user.css
@@ -72,6 +72,7 @@
 		--color-bg-secondary: var(--ayu-sidebar-bg);
 		--color-bg-tertiary: var(--ayu-quote-border);
 		--color-bg-canvas: var(--ayu-bg);
+		--color-bg-info: var(--ayu-quote-bg);
 		--color-bg-overlay: var(--ayu-theme-popup-bg);
 		--color-border-primary: var(--ayu-quote-border);
 		--color-border-secondary: var(--ayu-sidebar-spacer);
@@ -105,6 +106,7 @@
 		--color-input-bg: var(--ayu-theme-popup-bg);
 		--color-input-contrast-bg: var(--ayu-theme-hover);
 		--color-markdown-code-bg: var(--ayu-hljs-background);
+		--color-notifications-button-hover-bg: var(--ayu-table-alternate-bg);
 		--color-notifications-row-read-bg: var(--ayu-table-alternate-bg);
 		--color-notifications-row-bg: var(--ayu-bg);
 		--color-shadow-large: black;
