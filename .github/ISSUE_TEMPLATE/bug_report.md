@@ -26,7 +26,7 @@ If applicable, add screenshots to help explain your problem.
 
 **please complete the following information:**
 
-- Style version (if applicable): [e.g. 0.0.1]
+- Style version (if applicable): [e.g. 0.0.5]
 
 **Additional context**
 Add any other context about the problem here.

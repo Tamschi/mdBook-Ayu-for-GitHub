@@ -2,6 +2,12 @@
 
 <!-- markdownlint-disable no-trailing-punctuation -->
 
+## 0.0.5
+
+2020-12-10
+
+* Basic <docs.github.com> styling
+
 ## 0.0.4
 
 2020-12-03
