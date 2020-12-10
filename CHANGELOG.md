@@ -2,9 +2,9 @@
 
 <!-- markdownlint-disable no-trailing-punctuation -->
 
-## next
+## 0.0.5
 
-TODO: Date
+2020-12-10
 
 * Basic <docs.github.com> styling
 
