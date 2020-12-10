@@ -196,3 +196,49 @@
 		color: var(--ayu-hljs-meta);
 	}
 }
+
+@-moz-document domain("docs.github.com") {
+	body {
+		color: var(--ayu-fg);
+	}
+	.text-gray-dark {
+		/* Language link in the header. */
+		color: var(--ayu-fg) !important;
+	}
+	.article-grid-toc-content a {
+		color: var(--ayu-sidebar-non-existant);
+	}
+	.article-grid-toc-content a:hover {
+		color: var(--ayu-sidebar-active);
+	}
+	.article-grid-toc-content .link-gray-dark {
+		color: var(--ayu-sidebar-fg) !important;
+	}
+	.article-grid-toc-content .link-gray-dark:hover {
+		color: var(--ayu-sidebar-active) !important;
+	}
+	.markdown-body table th {
+		background: var(--ayu-table-header-bg);
+	}
+	.markdown-body table tr {
+		background: var(--ayu-table-alternate-bg);
+	}
+	h1 a, h2 a, h3 a, h4 a {
+		color: white;
+	}
+	a {
+		color: var(--ayu-links);
+	}
+	.js-support-banner {
+		background-color: var(--ayu-quote-bg) !important;
+	}
+	.btn {
+		background-color: var(--ayu-theme-popup-bg);
+	}
+	.btn:hover, .btn.hover, [open]>.btn {
+		background-color: var(--ayu-theme-hover);
+	}
+	.btn .octicon {
+		color: var(--ayu-icons);
+	}
+}
